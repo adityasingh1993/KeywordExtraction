@@ -57,8 +57,8 @@ pip install --upgrade pip
 2. Navigate To keyword_extractor:
 
     * if docker is installed
-        * In terminal * ` docker build -t car .`
-        * `docker *  -p 5005:5005 --name car car`
+        * In terminal  ` docker build -t car .`
+        * `docker run -p 5000:5000 --name car car`
     * if docker is not installed and you have installed all the dependencies
         * ` uvicorn app:app --host 0.0.0.0 --port 5000 --workers 1`
 3. After this model will start on port 5000
